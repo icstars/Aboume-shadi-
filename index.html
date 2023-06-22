@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <style>
-    img {
-      border-radius: 50%;
-    }
-
-    body {
-      background-color: khaki;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .italic {
-      font-style: italic;
-    }
-  </style>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHADI LAASIRI</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <h1 class="italic">Shadi L</h1>
-    <img src="About me.jpg" alt="icstars" width="20%" height="500" />
-    <h1>I am shadi a intern at i.c.stars</h1>
+    <h1 class="italic">About me</h1>
+    <div class="flex-container">
+      <img src="AboutMe.jpg" alt="icstars" />
+    </div>
+    <h1>Intern at i.c.stars</h1>
     <div>
       <h1>About me</h1>
-      <article>
-        The person is a <span class="italic">highly motivated</span> and curious
-        individual with a strong passion for technology.<br />
-        They have a deep understanding of computer systems and programming
-        <br />languages, and they constantly stay updated with the latest
-        advancements in the tech industry. They possess excellent
-        problem-solving skills and thrive in a fast-paced and innovative
-        environment.
-      </article>
-      <p><button class="button">Contact</button></p>
+      <div class="flex">
+        <p class="pp">
+          The person is a highly motivated and curious individual with a strong
+          passion for technology. They have a deep understanding of computer
+          systems and programming languages, and they constantly stay updated
+          with the latest advancements in the tech industry. They possess
+          excellent problem-solving skills and thrive in a fast-paced and
+          innovative environment.
+        </p>
+      </div>
+      <p>
+        <button class="button">Contact</button>
+      </p>
     </div>
     <h1><em>Favorite Foods</em></h1>
-    <ul>
+    <ul class="Foods">
       <li><h2>Steak</h2></li>
       <li><h2>Pizza</h2></li>
       <li><h2>Waffle fries</h2></li>
       <li><h2>Tacos</h2></li>
     </ul>
+    <br />
+    <h1>Where I'm From</h1>
+    <a
+      href="https://en.wikipedia.org/wiki/Morocco"
+      target="_blank"
+      class="Morocco"
+      >Morocco</a
+    >
+    <script src="/index.js"></script>
   </body>
 </html>
